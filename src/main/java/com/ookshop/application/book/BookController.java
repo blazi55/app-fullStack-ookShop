@@ -11,9 +11,9 @@ import java.util.List;
 @RequestMapping("book")
 public class BookController {
 
-    private BookService bookService;
+    private final BookService bookService;
 
-    @GetMapping()
+    @GetMapping("{bookId}")
     public BookDto getBook(@PathVariable long bookId) {
         return bookService.getBook(bookId);
     }
@@ -24,7 +24,8 @@ public class BookController {
     }
 
     @PostMapping()
-    public BookDto createBook(@RequestBody BookDto bookDto) {
-        return bookService.createBook(bookDto);
+    public BookDto createBook(@RequestBody CreateBookDto createBookDto) {
+        return bookService.createBook(createBookDto);
+
     }
 }

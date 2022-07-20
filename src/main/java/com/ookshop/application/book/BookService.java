@@ -22,11 +22,10 @@ public class BookService {
         return bookMapper.toDtoList(books);
     }
 
-    public BookDto createBook(BookDto bookDto) {
+    public BookDto createBook(CreateBookDto createBookDto) {
         final Book book = Book.builder()
-                .id(bookDto.getId())
-                .name(bookDto.getName())
-                .price(bookDto.getPrice())
+                .name(createBookDto.getName())
+                .price(createBookDto.getPrice())
                 .build();
         bookRepository.save(book);
         return bookMapper.toDto(book);
