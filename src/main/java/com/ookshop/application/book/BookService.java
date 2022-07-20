@@ -30,5 +30,4 @@ public class BookService {
         bookRepository.save(book);
         return bookMapper.toDto(book);
     }
-
 }
