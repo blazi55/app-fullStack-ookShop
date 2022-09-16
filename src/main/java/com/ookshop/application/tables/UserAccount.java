@@ -23,7 +23,7 @@ public class UserAccount {
 
     @Column
     @NotNull
-    private Long amount;
+    private Long amountBook;
 
     @OneToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id", unique = true)

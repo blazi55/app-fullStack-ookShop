@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -22,7 +23,7 @@ public class UserService implements UserDetailsService {
         final User user = create(createUserDto);
         final UserAccount userAccount = UserAccount.builder()
                 .user(user)
-                .amount(0L)
+                .amountBook(0L)
                 .build();
         user.setUserAccount(userAccount);
         userRepository.save(user);
@@ -58,7 +59,7 @@ public class UserService implements UserDetailsService {
         return User.builder()
                 .fullName(createUserDto.getFullName())
                 .email(createUserDto.getEmail())
-                .password(createUserDto.getPassword())
+                .password(new BCryptPasswordEncoder().encode(createUserDto.getPassword()))
                 .creationDate(LocalDateTime.now())
                 .build();
     }

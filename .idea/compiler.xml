@@ -7,16 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ookshop" />
+        <module name="application" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ookshop" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ookshop" options="-parameters" />
+      <module name="application" options="-parameters" />
     </option>
   </component>
 </project>
