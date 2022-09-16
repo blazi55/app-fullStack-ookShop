@@ -40,7 +40,7 @@ public class UserService implements UserDetailsService {
             throw new IllegalArgumentException("Id shouldn't be null. Email= " + user.getEmail());
         }
 
-        user.setPassword(updateUserDto.getPassword());
+        user.setPassword(new BCryptPasswordEncoder().encode(updateUserDto.getPassword()));
         this.userRepository.save(user);
         return this.userMapper.toDto(user);
     }
