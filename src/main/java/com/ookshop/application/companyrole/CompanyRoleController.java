@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("role")
+@RequestMapping("roleOokShop")
 public class CompanyRoleController {
 
     private final CompanyRoleService companyRoleService;

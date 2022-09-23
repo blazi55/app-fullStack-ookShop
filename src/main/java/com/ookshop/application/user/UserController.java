@@ -3,8 +3,8 @@ package com.ookshop.application.user;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping("user")
 @RestController
+@RequestMapping("userOokShop")
 @RequiredArgsConstructor
 public class UserController {
 

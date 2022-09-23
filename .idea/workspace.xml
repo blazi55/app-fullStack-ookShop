@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92c2f789-daa5-4f17-9f7b-42ae10cc1c5c" name="Changes" comment="next commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/LoginUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/companyrole/CompanyRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/companyrole/CompanyRoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/ExceptionEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/ExceptionEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/UserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/UserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/HomePageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/HomePageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/CustomUserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/ExceptionEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/UserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +59,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/ookshop"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/ookshop&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SpringOokShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ookshop.application.SpringOokShopApplication" />
-      <module name="application" />
+      <module name="ookshop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ookshop.application.*" />

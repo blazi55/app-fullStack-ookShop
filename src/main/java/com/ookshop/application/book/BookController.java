@@ -8,7 +8,8 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("book")
+@RequestMapping("bookOokShop")
+@CrossOrigin
 public class BookController {
 
     private final BookService bookService;
@@ -23,7 +24,7 @@ public class BookController {
         return bookService.getBooks();
     }
 
-    @PostMapping()
+    @PostMapping("/book")
     public BookDto createBook(@RequestBody CreateBookDto createBookDto) {
         return bookService.createBook(createBookDto);
 
