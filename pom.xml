@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.ookshop</groupId>
-    <artifactId>application</artifactId>
+    <artifactId>app-ookShop-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ookshop</name>
     <description>Project</description>

@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92c2f789-daa5-4f17-9f7b-42ae10cc1c5c" name="Changes" comment="next commit">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/companyrole/CompanyRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/companyrole/CompanyRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/CustomUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/ExceptionEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/ExceptionEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/UserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/UserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/HomePageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/CustomUserDetails.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/ExceptionEmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/UserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/security/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,31 +21,41 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="front" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2CQfIEq57qj47uSYBe0beQNtYz9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/ookshop&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/ookshop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "3676d55f84497cbeadfc614c1b1b62fc",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.SpringOokShopApplication">
     <configuration name="SpringOokShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ookshop.application.SpringOokShopApplication" />
       <module name="ookshop" />
@@ -80,8 +69,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringOokShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="app-ookShop-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ookshop.application.SpringOokShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringOokShopApplication" />
         <item itemvalue="Application.SpringOokShopApplication" />
       </list>
     </recent_temporary>
@@ -94,6 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658739647645</updated>
+      <workItem from="1690469701188" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="next commit">
       <created>1663346472246</created>
@@ -119,12 +117,27 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
