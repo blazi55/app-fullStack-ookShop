@@ -4,9 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c2f789-daa5-4f17-9f7b-42ae10cc1c5c" name="Changes" comment="next commit">
+    <list default="true" id="92c2f789-daa5-4f17-9f7b-42ae10cc1c5c" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/exceptions/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/UserAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/UserAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/CredentialsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/ErrorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/SpringOokShopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/SpringOokShopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/exceptions/ApplicationExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/exceptions/ErrorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/HomePageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/ExceptionEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/UserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/security/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/sql/0001_CREATE_TABLE_USER.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/sql/0001_CREATE_TABLE_USER.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/CompanyRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/CompanyRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/tables/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/CreateUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/CreateUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/SpringOokShopApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/SpringOokShopApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookDto$BookDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookDto$BookDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/CreateBookDto$CreateBookDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/CreateBookDto$CreateBookDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/CreateBookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/book/CreateBookDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleDto$CompanyRoleDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleDto$CompanyRoleDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CompanyRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CreateCompanyRole$CreateCompanyRoleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CreateCompanyRole$CreateCompanyRoleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CreateCompanyRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/companyrole/CreateCompanyRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/exceptions/ApplicationExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/exceptions/ErrorDto$ErrorDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/exceptions/ErrorDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/Book$BookBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/Book$BookBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/CompanyRole$CompanyRoleBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/CompanyRole$CompanyRoleBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/CompanyRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/CompanyRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/UserAccount$UserAccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/UserAccount$UserAccountBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/UserAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/tables/UserAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/AppRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/AppRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/CreateUserDto$CreateUserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/CreateUserDto$CreateUserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/CreateUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/CreateUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/LoginUserDto$LoginUserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/LoginUserDto$LoginUserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/LoginUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/LoginUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UpdateUserDto$UpdateUserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UpdateUserDto$UpdateUserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UpdateUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UpdateUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ookshop/application/user_account/UserAccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ookshop/application/user_account/UserAccountRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,33 +106,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2CQfIEq57qj47uSYBe0beQNtYz9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/ookshop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "3676d55f84497cbeadfc614c1b1b62fc",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/app-ookShop-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;efed3cb7401607c1d6fd59c11a8184a0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SpringOokShopApplication">
     <configuration name="SpringOokShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ookshop.application.SpringOokShopApplication" />
-      <module name="ookshop" />
+      <module name="app-ookShop-backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ookshop.application.*" />
@@ -92,6 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658739647645</updated>
       <workItem from="1690469701188" duration="27000" />
+      <workItem from="1690469764782" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="next commit">
       <created>1663346472246</created>
@@ -114,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1663346858557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="small changes">
+      <option name="closed" value="true" />
+      <created>1690469794759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690469794759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +231,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="next commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="next commit" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ookshop/application/security/UserAuthenticationProvider.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ookshop/application/security/UserAuthenticationProvider.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ookshop/application/user/UserController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

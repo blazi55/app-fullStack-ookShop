@@ -1,31 +1,41 @@
 package com.ookshop.application.user;
 
+import com.ookshop.application.exceptions.AppException;
 import com.ookshop.application.tables.User;
 import com.ookshop.application.tables.UserAccount;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
+import java.nio.CharBuffer;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
-public class UserService /*implements UserDetailsService*/ {
+public class UserService {
 
     private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
     private final UserMapper userMapper;
 
-    public UserDto createUser(CreateUserDto createUserDto) {
-        final User user = create(createUserDto);
+    public UserDto createUser(final CreateUserDto createUserDto) {
+        final Optional<User> optionalUser = userRepository.findUserByLogin(createUserDto.getLogin());
+        if (optionalUser.isPresent()) {
+            throw new AppException("Login already exists", HttpStatus.BAD_REQUEST);
+        }
+        final User user = userMapper.signUpToUser(createUserDto);
         final UserAccount userAccount = UserAccount.builder()
                 .user(user)
                 .amountBook(0L)
                 .build();
         user.setUserAccount(userAccount);
+        user.setPassword(passwordEncoder.encode(CharBuffer.wrap(createUserDto.getPassword())));
         userRepository.save(user);
         return userMapper.toDto(user);
     }
 
-    public UserDto updatePasswordUser(UpdateUserDto updateUserDto) {
+    public UserDto updatePasswordUser(final UpdateUserDto updateUserDto) {
         if (updateUserDto.getEmail() == null) {
             throw new IllegalArgumentException("Id shouldn't be null. Id= " + updateUserDto.getEmail());
         }
@@ -41,23 +51,19 @@ public class UserService /*implements UserDetailsService*/ {
         return this.userMapper.toDto(user);
     }
 
-//    @Override
-//    public UserDetails loadUserByUsername(String userEmail) throws UsernameNotFoundException {
-//        User user = userRepository.findByEmail(userEmail);
-//        if (user == null) {
-//            throw new UsernameNotFoundException("Email doesn't exist");
-//        }
-//
-//        return new CustomUserDetails(user);
-//    }
+    public UserDto login(final CredentialsDto credentialsDto) {
+        final User user = userRepository.findUserByLogin(credentialsDto.getLogin())
+                .orElseThrow(() -> new IllegalArgumentException("Unknown user"));
 
-    private User create(CreateUserDto createUserDto) {
-        return User.builder()
-                .fullName(createUserDto.getFullName())
-                .email(createUserDto.getEmail())
-                .password(createUserDto.getPassword())
-                .creationDate(LocalDateTime.now())
-                .build();
-        //new BCryptPasswordEncoder().encode(createUserDto.getPassword())
+        if (passwordEncoder.matches(CharBuffer.wrap(credentialsDto.getPassword()), user.getPassword())) {
+            return userMapper.toDto(user);
+        }
+        throw new IllegalArgumentException("Invalid password");
+    }
+
+    public UserDto findByLogin(final String login) {
+        final User user = userRepository.findUserByLogin(login)
+                .orElseThrow(() -> new IllegalArgumentException("Unknown user"));
+        return userMapper.toDto(user);
     }
 }

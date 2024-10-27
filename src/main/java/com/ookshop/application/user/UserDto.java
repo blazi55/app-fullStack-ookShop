@@ -17,6 +17,8 @@ public class UserDto {
     private Long id;
     private String fullName;
     private String email;
+    private String login;
+    private String token;
     private String password;
     private LocalDateTime creationDate;
 }

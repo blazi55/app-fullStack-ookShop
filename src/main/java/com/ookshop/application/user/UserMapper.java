@@ -1,28 +1,14 @@
 package com.ookshop.application.user;
 
 import com.ookshop.application.tables.User;
-import org.springframework.stereotype.Component;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 
-@Component
-public class UserMapper {
+@Mapper(componentModel = "spring")
+public interface UserMapper {
 
-    public UserDto toDto(User user) {
-        return UserDto.builder()
-                .id(user.getId())
-                .fullName(user.getFullName())
-                .email(user.getEmail())
-                .password(user.getPassword())
-                .creationDate(user.getCreationDate())
-                .build();
-    }
+	UserDto toDto(User user);
 
-    public User toEntity(UserDto userDto) {
-        return User.builder()
-                .id(userDto.getId())
-                .fullName(userDto.getFullName())
-                .email(userDto.getEmail())
-                .password(userDto.getPassword())
-                .creationDate(userDto.getCreationDate())
-                .build();
-    }
+	@Mapping(target = "password", ignore = true)
+	User signUpToUser(CreateUserDto createUserDto);
 }
